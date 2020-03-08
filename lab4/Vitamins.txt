@@ -1,0 +1,54 @@
+
+ONE
+a.
+100nlog(2) + 100log(n) - 100n = 100n + 100log(n) - 100n = 100log(n).
+99log(n) < 100log(n) < 101log(n) for n>1 
+-> Theta(log(n))
+
+b. 
+n < n + 1, for n > 0. 
+2n^2 > n^2 + 1 for n > 1.
+So (2n^2 / n) > ((n^2 + 1)/(n+1)) for n>1.
+2n^2 / n = 2n. 2n > ((n^2 + 1)/(n+1)) for n>1
+-> O(n)
+
+c. 
+sqrt(9n^2) > sqrt(3n^2 + 3n + 3) for n>1, 
+sqrt(n^2) < sqrt(3n^2 + 3n + 3) for n>0,
+n < sqrt(3n^2 + 3n + 3) < 3n for n>1
+-> Theta(n)
+
+TWO
+a. 
+False
+b.
+False
+c.
+True
+d.
+False
+
+THREE
+N = theta(n)
+N^2 = theta(n^2)
+n(n+1)/2 = theta(n^2)
+
+log(n) (log(n)+1) / 2 = log^2(n) *n
+??  *n
+
+FOUR
+a.
+O(n^2). It is a summation from one to n.
+
+b.
+O(n^2) It is still a summation from one to n, except it's only even numbs.
+
+c.
+O(n) Once lst[j] goes out of bound, the inner loop stops, so it's just summation from one to n. 
+d.
+O(n). it is a constant time while loop  inside a linear time for loop.
+
+e.
+O(nlog(n)) it is a logarithmic time while loop inside a linear time for loop.
+
+

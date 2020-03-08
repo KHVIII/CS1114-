@@ -1,0 +1,17 @@
+1. 
+Append():
+	(1): O(n)
+	(n): O(n)
+	
+insert(0,val):
+	(1):O(n)
+	(n):O(n^2)
+
+2. 
+a. bad_way_of_constructin_one_to_n_list
+	 Worst case runtime = O(n^2)
+b. n+2(n-1)+3(n-2)+....(n)(1)
+	Worst case runtime = O(n^2)
+c. check palindrome:
+	Worst case runtime = O(n)
+ 

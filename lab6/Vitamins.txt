@@ -1,0 +1,16 @@
+func1:
+a. func1(16) -> 10 + func1(14) ->80
+func1(14) -> 10 + func1(12) ->70
+func1(12) -> 10 + func1(10) ->60 
+func1(10) -> 10 + func1(8) ->50
+func1(8) -> 10 + func1(6) ->40
+func1(6) -> 10 + func1(4) ->30
+func1(4) -> 10 + func1(2) -> 20
+func1(2) -> 10 + func1(0) -> 10
+func1(0) -> 0
+
+b. n -> n-2 -> n-4 -> n-6 -> ... -> 0 (cost is 1 everytime)
+O(n) = n
+
+func2:
+a. func(16
